@@ -23,7 +23,6 @@ pipeline {
         stage('Deploy') {
     steps {
         sh 'cp /var/lib/jenkins/workspace/pipeline/target/my-webapp.war /var/lib/tomcat9/webapps/'
-        sh 'sudo systemctl restart tomcat9'
     }
 }
 
