@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Jenkins Assignment free style</h2>
+<h2>Jenkins Assignment Freestyle</h2>
 </body>
 </html>
