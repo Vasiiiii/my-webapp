@@ -22,7 +22,7 @@ pipeline {
         
         stage('Deploy') {
     steps {
-        sh 'cp /var/lib/jenkins/workspace/Jenkins freestyle/target/my-webapp.war /var/lib/tomcat9/webapps/'
+        sh 'cp target/my-webapp.war /var/lib/tomcat9/webapps/'
     }
 }
 
